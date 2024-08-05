@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-NQDOAVJ</Machine>
+    <WindowsUser>Richards Louis</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>356c7284-e84e-4c50-a7d1-f4621e025cef</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AD081A01F69A9B98DBF49CE6F0C5E1A2A217F21E8713030DDF1D91249E3783EA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1362InfantLouisRichards.GoDaddyInfiniteDam_3.0.1.0_x64__t8fw2476bzf4t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1362InfantLouisRichards.GoDaddyInfiniteDam_t8fw2476bzf4t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1362InfantLouisRichards.GoDaddyInfiniteDam</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B</RegisteredPackagePublisher>
+    <RegisteredVersion>3.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-01T21:22:21.212</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2016-01-26T19:49:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\100x100.png">
+      <PackagePath>Assets\100x100.png</PackagePath>
+      <Modified>2016-01-27T03:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\107x107.png">
+      <PackagePath>Assets\107x107.png</PackagePath>
+      <Modified>2016-01-27T03:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\1240x1240.png">
+      <PackagePath>Assets\1240x1240.png</PackagePath>
+      <Modified>2016-01-27T03:31:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\1240x600 %282%29.png">
+      <PackagePath>Assets\1240x600 %282%29.png</PackagePath>
+      <Modified>2016-01-27T03:34:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\1240x600.png">
+      <PackagePath>Assets\1240x600.png</PackagePath>
+      <Modified>2016-01-27T03:35:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <Modified>2016-01-27T03:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\16x16.png">
+      <PackagePath>Assets\16x16.png</PackagePath>
+      <Modified>2016-01-27T02:55:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\176x176.png">
+      <PackagePath>Assets\176x176.png</PackagePath>
+      <Modified>2016-01-27T03:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\188x188.png">
+      <PackagePath>Assets\188x188.png</PackagePath>
+      <Modified>2016-01-27T03:15:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\200x200.png">
+      <PackagePath>Assets\200x200.png</PackagePath>
+      <Modified>2016-01-27T03:20:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\225x225.png">
+      <PackagePath>Assets\225x225.png</PackagePath>
+      <Modified>2016-01-27T03:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\2480x1200.png">
+      <PackagePath>Assets\2480x1200.png</PackagePath>
+      <Modified>2016-01-27T03:32:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\2480x2480.png">
+      <PackagePath>Assets\2480x2480.png</PackagePath>
+      <Modified>2016-01-27T03:32:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\24x24.png">
+      <PackagePath>Assets\24x24.png</PackagePath>
+      <Modified>2016-01-27T02:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\256x256.png">
+      <PackagePath>Assets\256x256.png</PackagePath>
+      <Modified>2016-01-27T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\284x284.scale-100.png">
+      <PackagePath>Assets\284x284.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:59:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\284x284.scale-125.png">
+      <PackagePath>Assets\284x284.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:53:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\284x284.scale-150.png">
+      <PackagePath>Assets\284x284.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\284x284.scale-200.png">
+      <PackagePath>Assets\284x284.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\284x284.scale-400.png">
+      <PackagePath>Assets\284x284.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:21:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\300x300.png">
+      <PackagePath>Assets\300x300.png</PackagePath>
+      <Modified>2016-01-27T03:22:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\30x30.png">
+      <PackagePath>Assets\30x30.png</PackagePath>
+      <Modified>2016-01-27T02:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <Modified>2016-01-27T03:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\310x310.png">
+      <PackagePath>Assets\310x310.png</PackagePath>
+      <Modified>2016-01-27T03:22:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\36x36.png">
+      <PackagePath>Assets\36x36.png</PackagePath>
+      <Modified>2016-01-27T02:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\388x188.png">
+      <PackagePath>Assets\388x188.png</PackagePath>
+      <Modified>2016-01-27T03:33:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\388x388.png">
+      <PackagePath>Assets\388x388.png</PackagePath>
+      <Modified>2016-01-27T03:23:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+      <Modified>2016-01-27T02:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\465x225.png">
+      <PackagePath>Assets\465x225.png</PackagePath>
+      <Modified>2016-01-27T03:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\465x465.png">
+      <PackagePath>Assets\465x465.png</PackagePath>
+      <Modified>2016-01-27T03:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\48x48.png">
+      <PackagePath>Assets\48x48.png</PackagePath>
+      <Modified>2016-01-27T02:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+      <Modified>2016-01-27T02:58:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\55x55.png">
+      <PackagePath>Assets\55x55.png</PackagePath>
+      <Modified>2016-01-27T02:58:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\600x600.png">
+      <PackagePath>Assets\600x600.png</PackagePath>
+      <Modified>2016-01-27T03:24:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\620x300 %282%29.png">
+      <PackagePath>Assets\620x300 %282%29.png</PackagePath>
+      <Modified>2016-01-27T03:25:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\620x300.png">
+      <PackagePath>Assets\620x300.png</PackagePath>
+      <Modified>2016-01-27T03:34:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\620x620.png">
+      <PackagePath>Assets\620x620.png</PackagePath>
+      <Modified>2016-01-27T03:25:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\63x63.png">
+      <PackagePath>Assets\63x63.png</PackagePath>
+      <Modified>2016-01-27T02:59:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\66x66.png">
+      <PackagePath>Assets\66x66.png</PackagePath>
+      <Modified>2016-01-27T02:59:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\71x71.png">
+      <PackagePath>Assets\71x71.png</PackagePath>
+      <Modified>2016-01-27T02:59:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\71x71.scale-100.png">
+      <PackagePath>Assets\71x71.scale-100.png</PackagePath>
+      <Modified>2016-01-27T03:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\71x71.scale-200.png">
+      <PackagePath>Assets\71x71.scale-200.png</PackagePath>
+      <Modified>2016-01-27T03:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\75x75.png">
+      <PackagePath>Assets\75x75.png</PackagePath>
+      <Modified>2016-01-27T03:05:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\775x375.png">
+      <PackagePath>Assets\775x375.png</PackagePath>
+      <Modified>2016-01-27T03:28:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\775x775.png">
+      <PackagePath>Assets\775x775.png</PackagePath>
+      <Modified>2016-01-27T03:29:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\88x88.png">
+      <PackagePath>Assets\88x88.png</PackagePath>
+      <Modified>2016-01-27T02:53:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\89x89.png">
+      <PackagePath>Assets\89x89.png</PackagePath>
+      <Modified>2016-01-27T02:53:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\930x450.png">
+      <PackagePath>Assets\930x450.png</PackagePath>
+      <Modified>2016-01-27T03:29:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\930x930.png">
+      <PackagePath>Assets\930x930.png</PackagePath>
+      <Modified>2016-01-27T03:30:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\96x96.scale-100.png">
+      <PackagePath>Assets\96x96.scale-100.png</PackagePath>
+      <Modified>2016-01-27T02:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\96x96.scale-125.png">
+      <PackagePath>Assets\96x96.scale-125.png</PackagePath>
+      <Modified>2016-01-27T02:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\96x96.scale-150.png">
+      <PackagePath>Assets\96x96.scale-150.png</PackagePath>
+      <Modified>2016-01-27T02:54:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\96x96.scale-200.png">
+      <PackagePath>Assets\96x96.scale-200.png</PackagePath>
+      <Modified>2016-01-27T02:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\96x96.scale-400.png">
+      <PackagePath>Assets\96x96.scale-400.png</PackagePath>
+      <Modified>2016-01-27T03:05:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2016-01-27T02:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <Modified>2016-01-27T02:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <Modified>2016-01-27T02:54:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <Modified>2016-01-27T02:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <Modified>2016-01-27T03:05:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:25:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:28:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:29:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:35:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:32:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:15:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:22:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:24:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2016-01-27T03:22:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <Modified>2016-01-27T03:23:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <Modified>2016-01-27T03:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <Modified>2016-01-27T03:25:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <Modified>2016-01-27T03:31:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:58:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:59:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:53:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:55:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square620x620Logo.scale-100.png">
+      <PackagePath>Assets\Square620x620Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:22:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square620x620Logo.scale-125.png">
+      <PackagePath>Assets\Square620x620Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:23:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square620x620Logo.scale-150.png">
+      <PackagePath>Assets\Square620x620Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square620x620Logo.scale-200.png">
+      <PackagePath>Assets\Square620x620Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:25:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Square620x620Logo.scale-400.png">
+      <PackagePath>Assets\Square620x620Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:31:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:58:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T02:59:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:05:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:20:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:33:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:34:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-27T03:34:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\css\font-awesome.min.css">
+      <PackagePath>Assets\www\assets\css\font-awesome.min.css</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\css\ie8.css">
+      <PackagePath>Assets\www\assets\css\ie8.css</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\css\images\arrow.svg">
+      <PackagePath>Assets\www\assets\css\images\arrow.svg</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\css\main.css">
+      <PackagePath>Assets\www\assets\css\main.css</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\css\main1.css">
+      <PackagePath>Assets\www\assets\css\main1.css</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\assets\fonts\FontAwesome.otf</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\ie\backgroundsize.min.htc">
+      <PackagePath>Assets\www\assets\js\ie\backgroundsize.min.htc</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\ie\html5shiv.js">
+      <PackagePath>Assets\www\assets\js\ie\html5shiv.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\ie\PIE.htc">
+      <PackagePath>Assets\www\assets\js\ie\PIE.htc</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\ie\respond.min.js">
+      <PackagePath>Assets\www\assets\js\ie\respond.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\jquery.dropotron.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.dropotron.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\jquery.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\jquery.onvisible.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.onvisible.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\jquery.scrolly.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.scrolly.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\main.js">
+      <PackagePath>Assets\www\assets\js\main.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\skel.min.js">
+      <PackagePath>Assets\www\assets\js\skel.min.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\assets\js\util.js">
+      <PackagePath>Assets\www\assets\js\util.js</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\images\header.jpg">
+      <PackagePath>Assets\www\images\header.jpg</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\images\header1.jpg">
+      <PackagePath>Assets\www\images\header1.jpg</PackagePath>
+      <Modified>2016-04-27T23:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\noproceed.html">
+      <PackagePath>Assets\www\noproceed.html</PackagePath>
+      <Modified>2016-04-27T23:15:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\Assets\www\proceed.html">
+      <PackagePath>Assets\www\proceed.html</PackagePath>
+      <Modified>2016-04-27T23:15:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-07-22T17:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\InfiniteDam.dll">
+      <PackagePath>InfiniteDam.dll</PackagePath>
+      <Modified>2016-05-01T21:22:20.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\InfiniteDam.exe">
+      <PackagePath>InfiniteDam.exe</PackagePath>
+      <Modified>2016-05-01T21:22:21.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\InfiniteDam.pdb">
+      <PackagePath>InfiniteDam.pdb</PackagePath>
+      <Modified>2016-05-01T21:22:21.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-01T21:21:37.545</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Runtime.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Runtime.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\.\AppX\x64\Microsoft.NET.Native.Runtime.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Runtime.1.3</Name>
+      <Version>1.3.23901.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.3, MinVersion = 1.3.23901.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.3\1.3\.\AppX\x86\Microsoft.NET.Native.Runtime.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.23816.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.23816.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.23816.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.23816.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.23816.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.23816.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windows10\InfiniteDam\InfiniteDam\bin\x86\Release\Upload\InfiniteDam_3.0.2.0_x86.appx

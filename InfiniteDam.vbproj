@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5635E326-9BCE-4575-8C10-2201BF8E00A2}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <RootNamespace>InfiniteDam</RootNamespace>
+    <AssemblyName>InfiniteDam</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>InfiniteDam_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>E67C2609BE2F4FB581793D8E8F58D18B83C809BF</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE,WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>InfiniteDam.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Assets\www\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\www\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="Assets\www\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="Assets\www\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\www\assets\fonts\FontAwesome.otf" />
+    <None Include="Assets\www\assets\sass\ie8.scss" />
+    <None Include="Assets\www\assets\sass\libs\_functions.scss" />
+    <None Include="Assets\www\assets\sass\libs\_mixins.scss" />
+    <None Include="Assets\www\assets\sass\libs\_skel.scss" />
+    <None Include="Assets\www\assets\sass\libs\_vars.scss" />
+    <None Include="Assets\www\assets\sass\main.scss" />
+    <None Include="InfiniteDam_StoreKey.pfx" />
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.vb">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AppxManifest>
+    <None Include="InfiniteDam_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\100x100.png" />
+    <Content Include="Assets\107x107.png" />
+    <Content Include="Assets\1240x1240.png" />
+    <Content Include="Assets\1240x600 %282%29.png" />
+    <Content Include="Assets\1240x600.png" />
+    <Content Include="Assets\150x150.png" />
+    <Content Include="Assets\16x16.png" />
+    <Content Include="Assets\176x176.png" />
+    <Content Include="Assets\188x188.png" />
+    <Content Include="Assets\200x200.png" />
+    <Content Include="Assets\225x225.png" />
+    <Content Include="Assets\2480x1200.png" />
+    <Content Include="Assets\2480x2480.png" />
+    <Content Include="Assets\24x24.png" />
+    <Content Include="Assets\256x256.png" />
+    <Content Include="Assets\284x284.scale-100.png" />
+    <Content Include="Assets\284x284.scale-125.png" />
+    <Content Include="Assets\284x284.scale-150.png" />
+    <Content Include="Assets\284x284.scale-200.png" />
+    <Content Include="Assets\284x284.scale-400.png" />
+    <Content Include="Assets\300x300.png" />
+    <Content Include="Assets\30x30.png" />
+    <Content Include="Assets\310x150.png" />
+    <Content Include="Assets\310x310.png" />
+    <Content Include="Assets\36x36.png" />
+    <Content Include="Assets\388x188.png" />
+    <Content Include="Assets\388x388.png" />
+    <Content Include="Assets\44x44.png" />
+    <Content Include="Assets\465x225.png" />
+    <Content Include="Assets\465x465.png" />
+    <Content Include="Assets\48x48.png" />
+    <Content Include="Assets\50x50.png" />
+    <Content Include="Assets\55x55.png" />
+    <Content Include="Assets\600x600.png" />
+    <Content Include="Assets\620x300 %282%29.png" />
+    <Content Include="Assets\620x300.png" />
+    <Content Include="Assets\620x620.png" />
+    <Content Include="Assets\63x63.png" />
+    <Content Include="Assets\66x66.png" />
+    <Content Include="Assets\71x71.png" />
+    <Content Include="Assets\71x71.scale-100.png" />
+    <Content Include="Assets\71x71.scale-200.png" />
+    <Content Include="Assets\75x75.png" />
+    <Content Include="Assets\775x375.png" />
+    <Content Include="Assets\775x775.png" />
+    <Content Include="Assets\88x88.png" />
+    <Content Include="Assets\89x89.png" />
+    <Content Include="Assets\930x450.png" />
+    <Content Include="Assets\930x930.png" />
+    <Content Include="Assets\96x96.scale-100.png" />
+    <Content Include="Assets\96x96.scale-125.png" />
+    <Content Include="Assets\96x96.scale-150.png" />
+    <Content Include="Assets\96x96.scale-200.png" />
+    <Content Include="Assets\96x96.scale-400.png" />
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Square620x620Logo.scale-100.png" />
+    <Content Include="Assets\Square620x620Logo.scale-125.png" />
+    <Content Include="Assets\Square620x620Logo.scale-150.png" />
+    <Content Include="Assets\Square620x620Logo.scale-200.png" />
+    <Content Include="Assets\Square620x620Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\www\assets\css\font-awesome.min.css" />
+    <Content Include="Assets\www\assets\css\ie8.css" />
+    <Content Include="Assets\www\assets\css\images\arrow.svg" />
+    <Content Include="Assets\www\assets\css\main.css" />
+    <Content Include="Assets\www\assets\css\main1.css" />
+    <Content Include="Assets\www\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\www\assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="Assets\www\assets\js\ie\html5shiv.js" />
+    <Content Include="Assets\www\assets\js\ie\PIE.htc" />
+    <Content Include="Assets\www\assets\js\ie\respond.min.js" />
+    <Content Include="Assets\www\assets\js\jquery.dropotron.min.js" />
+    <Content Include="Assets\www\assets\js\jquery.min.js" />
+    <Content Include="Assets\www\assets\js\jquery.onvisible.min.js" />
+    <Content Include="Assets\www\assets\js\jquery.scrolly.min.js" />
+    <Content Include="Assets\www\assets\js\main.js" />
+    <Content Include="Assets\www\assets\js\skel.min.js" />
+    <Content Include="Assets\www\assets\js\util.js" />
+    <Content Include="Assets\www\images\header.jpg" />
+    <Content Include="Assets\www\images\header1.jpg" />
+    <Content Include="Assets\www\noproceed.html" />
+    <Content Include="Assets\www\proceed.html" />
+    <Content Include="My Project\Default.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections.ObjectModel" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Runtime.CompilerServices" />
+    <Import Include="System.Runtime.InteropServices.WindowsRuntime" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Windows.ApplicationModel" />
+    <Import Include="Windows.ApplicationModel.Activation" />
+    <Import Include="Windows.Foundation" />
+    <Import Include="Windows.Foundation.Collections" />
+    <Import Include="Windows.Graphics.Display" />
+    <Import Include="Windows.UI.ViewManagement" />
+    <Import Include="Windows.UI.Xaml" />
+    <Import Include="Windows.UI.Xaml.Controls" />
+    <Import Include="Windows.UI.Xaml.Controls.Primitives" />
+    <Import Include="Windows.UI.Xaml.Data" />
+    <Import Include="Windows.UI.Xaml.Input" />
+    <Import Include="Windows.UI.Xaml.Media" />
+    <Import Include="Windows.UI.Xaml.Media.Imaging" />
+    <Import Include="Windows.UI.Xaml.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OneSignalSDK_WP_WNS">
+      <HintPath>..\..\OneSignal-notification\OneSignal-WindowsPhone-SDK-1.1.0\Release\OneSignalSDK_WP81_Release\OneSignalSDK_WP_WNS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
