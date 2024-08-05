@@ -1,4 +1,4 @@
-# Infinitedam (ILRLabs)
+# Infinitedam (Denebsky)
 Infinitedam App [Win11 version]
 
 # Overview
